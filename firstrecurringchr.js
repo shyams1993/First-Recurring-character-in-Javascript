@@ -8,9 +8,9 @@ function firstOccurrence(arr)
             return arr[i];
             break;
         }
-        d[i] = i;
+        d[arr[i]] = arr[i];
     }
 }
 
-arr = [2,1,9,3,3,4,5,6];
+arr = [333,341,356,333];
 console.log(firstOccurrence(arr));
